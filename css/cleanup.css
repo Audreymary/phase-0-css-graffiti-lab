@@ -1,1 +1,22 @@
 /* write your override styles here */
+/* Override styles for specific elements */
+
+/* Example: Override the background color of the element with an id of "header" */
+#header {
+    background-color: red;
+  }
+  
+  /* Example: Override the font size of all elements with the class "text" */
+  .text {
+    font-size: 24px;
+  }
+  
+  /* Example: Override the color of all links (a elements) within the element with an id of "footer" */
+  #footer a {
+    color: blue;
+  }
+  
+  /* Example: Override the margin of the first paragraph (p) element within the element with a class of "article" */
+  .article p:first-child {
+    margin-top: 0;
+  }
